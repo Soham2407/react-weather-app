@@ -1,0 +1,42 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70vh;
+}
+
+.city {
+  font-size: 1.2rem;
+}
+
+.temp {
+  font-size: 4.7rem;
+}
+
+.condition {
+  font-size: 1.3rem;
+  font-weight: 600;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+  position: relative;
+  right: -90%;
+}
+
+.bottom {
+  display: flex;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  justify-content: space-around;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.info-text {
+  font-size: 1.1rem;
+}
